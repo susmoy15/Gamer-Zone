@@ -1,0 +1,81 @@
+/* Font size */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.game {
+    display: flex;
+    gap: 20px;
+}
+
+.raw {
+    border-radius: 2px;
+    border: 0;
+    color: brown;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    padding: 50px 125px;
+}
+
+nav>ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 30px;
+    font-size: 18px;
+}
+
+nav li a {
+    text-decoration: none;
+}
+
+.cool {
+    background-color: whitesmoke;
+}
+
+.banner {
+    display: flex;
+    gap: 500px;
+}
+
+section {
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 120px;
+}
+
+.design {
+    font-size: 35px;
+    color: deeppink;
+}
+.btn{
+    border-radius: 50px;
+    padding: 9px 9px;
+    background-color: deeppink;
+    color: aliceblue;
+    border: 0;
+}
+.btn2{
+    border-radius: 50px;
+    padding: 9px 9px;
+    background-color: blueviolet;
+    color: aliceblue;
+    border: 0;
+}
+
+.description{
+    display: flex;
+}
