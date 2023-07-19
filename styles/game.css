@@ -61,14 +61,16 @@ section {
     font-size: 35px;
     color: deeppink;
 }
-.btn{
+
+.btn {
     border-radius: 50px;
     padding: 9px 9px;
     background-color: deeppink;
     color: aliceblue;
     border: 0;
 }
-.btn2{
+
+.btn2 {
     border-radius: 50px;
     padding: 9px 9px;
     background-color: blueviolet;
@@ -76,6 +78,38 @@ section {
     border: 0;
 }
 
-.description{
+.description {
     display: flex;
+    margin-top: 30px;
+}
+
+.description-title {
+    text-align: right;
+}
+
+.games {
+    text-align: center;
+}
+
+.online {
+    display: flex;
+    gap: 9px;
+    margin-top: 30px;
+}
+
+.play {
+    display: flex;
+    margin-left: 200px;
+    margin-top: 30px;
+    gap: 200px;
+}
+.image{
+    margin-top: 50px;
+}
+.text{
+    margin-bottom: 200px;
+}
+.top{
+    position: relative;
+    bottom: 280px;
 }
