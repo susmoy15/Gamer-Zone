@@ -90,7 +90,14 @@ section {
 .games {
     text-align: center;
 }
-
+.hard{
+    position: relative;
+    bottom: 300px;
+    margin-left: 150px;
+    border-radius: 2px;
+    text-decoration: none;
+    border: 0;
+}
 .online {
     display: flex;
     gap: 9px;
@@ -103,13 +110,112 @@ section {
     margin-top: 30px;
     gap: 200px;
 }
-.image{
+
+.image {
     margin-top: 50px;
 }
-.text{
+
+.text {
     margin-bottom: 200px;
+    text-align: right;
 }
-.top{
+
+.top {
     position: relative;
     bottom: 280px;
+}
+
+.frame {
+    display: flex;
+    gap: 30px;
+    margin-left: 150px;
+    margin-bottom: 90px;
+}
+
+.frame2 {
+    display: flex;
+    gap: 30px;
+    margin-left: 290px;
+    margin-bottom: 90px;
+}
+
+.last {
+    text-align: center;
+    background-color: darkcyan;
+
+}
+
+.now {
+    display: flex;
+    align-items: center;
+    margin-left: 720px
+}
+
+.one {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-left: 600px
+    
+}
+
+.two {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-left: 650px
+}
+.right:hover{
+    color: blue;
+}
+
+
+
+/* mobile device */
+@media screen and (max-width: 576px) {
+    header {
+        padding: 20px;
+    }
+
+    nav,
+    .banner,
+    .cool,
+    .play,
+    .description {
+        flex-direction: column;
+    }
+
+    .online {
+        grid-template-columns: 1fr;
+        flex-direction: column;
+    }
+
+    .teams-content {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .frame, .frame2 {
+        grid-template-columns: repeat(2, 3fr);
+        flex-direction: column;
+    }
+}
+
+
+/* medium device */
+@media screen and (min-width: 576px) and (max-width: 960px) {
+    header {
+        padding: 50px;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+    .online {
+        grid-template-columns: 2fr;
+        flex-direction: column;
+    }
+    .teams-content {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 }
